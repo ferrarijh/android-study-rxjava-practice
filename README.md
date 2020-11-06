@@ -69,9 +69,15 @@ class MyActivity: AppCompatActivity(){
 ```
 
 # Operators
+Best to understand with marble diagrams on google
 
-## Creeate, Just, Range, Repeat
+## Create, Just, Range, Repeat
 * ```create()``` - most flexible to determine what kind of object to observe on and what to do on subscription
 * ```just()``` - observe on most 10 result (Mostly for observing on single ```Observable```)
 
-## FlatMap
+## Buffer
+* Periodically emit items in a bundle(set) rather than one by one.
+
+## Debounce
+
+## Throttle
